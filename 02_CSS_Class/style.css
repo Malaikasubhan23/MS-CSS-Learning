@@ -10,69 +10,66 @@ html , body{
     height: 100%;
 }
 
-#startup{
-    width: 100%;
-    height: 100vh;
-    background-color: #4D256E;
-    color:#F5E3FB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
-    font-size: 30px;
-}
-
-#head1{
-    color: white;
-    font-family:'Arial Narrow Bold';
-    font-size: 40px ;
-    padding: 20px;
-}
-
-#head2{
-    font-family: Cambria;
-    margin: 6px;
-    font-size: 30px;
-    color: burlywood;
-}
-
-#main{
-    width: 100%;
-    height:100vh;
-    background-color: #2E0F38;
-    color: #4D7B93;
-    display: flex;
-    justify-content: center;
-    align-items: first center;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-
-#head3{
-    font-family: 'Trebuchet MS';
-    font-size: 30px;
-    color: burlywood;
+/* for all sec */
+section{
     padding: 30px;
-}
-
-#head5{
-     font-family: 'Courier New';
-     font-size: 40px;
-     color: rgb(10, 112, 247);
-}
-
-
-#footer{
-    width: 100%;
     height: 100vh;
-    background-color: #691761;
-    color: #AE9DB4;
-    display: flex;
-    justify-items: center;
+    width: 100%;
     align-items: center;
+    text-align: center;
+    display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
     font-size: 30px;
+    font-family:sans-serif;
+}
+
+/* footer */
+#footer{
+    padding: 30px;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    font-family:sans-serif;
+}
+
+/* startup*/
+#startup{
+    background-color: #ACC8E5;
+    color: #112A46;
+}
+
+/* the garden */
+#garden{
+    background-color:#7CCAD5;
+    color: #0A85ED;
+}
+
+/* curious boy */
+#main{
+    background-color: #FA8072;
+    color: #B7410E;
+}
+
+/* he saw */
+#saw{
+   background-color: #FDBCB4;
+   color: #DE3163;
+}
+
+/* the secret */
+#secret{
+    background-color: #FF9966;
+    color: #964B00;
+}
+
+/* footer */
+#footer{
+    background-color: #E97451;
+    color: #F4C430;
 }

@@ -128,4 +128,4 @@ html
 | Inline CSS   | CSS inside HTML tags          | Quick, easy for small tasks | Hard to manage, not reusable    |
 | External CSS | CSS in a separate CSS file | Clean, reusable, organized  | Requires linking and extra file |
 
----
+--- Made by:MALAIKA SUBHAN.
